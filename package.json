@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Jagad Yudha Awali <jagadyudhaawali@gmail.com>",
+  "author": "Jagad Yudha Awali <me@jagad.dev>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
