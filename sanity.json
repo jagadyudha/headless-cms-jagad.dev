@@ -12,14 +12,11 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "markdown",
-    "dark-mode"
+    "mdide"
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
@@ -30,6 +27,14 @@
     {
       "implements": "part:@sanity/base/root",
       "path": "plugins/sanity-plugin-tutorial/CustomDefaultLayout"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./styles/variableOverrides.css"
+    },
+    {
+      "implements": "part:@sanity/base/app-loading-screen",
+      "path": "./components/logo.js"
     }
   ]
 }

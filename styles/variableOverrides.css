@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+:root {
+  --brand-primary: #0ac5b3;
+  --brand-secondary: #0ac5b3;
+  --font-family-base: "Inter";
+  --component-bg: #2c2d30;
+  --component-text-color: #fff;
+  --main-navigation-color: #232426;
+  --body-text: #fff;
+}
